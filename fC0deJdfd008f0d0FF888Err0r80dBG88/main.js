@@ -1,6 +1,6 @@
  $(document).ready(function() {
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'wa0lDErtm0s.mp3');
+    audioElement.setAttribute('src', 'a0lerFR0tm0s.mp3');
 
     audioElement.addEventListener('ended', function() {
         this.play();
@@ -35,8 +35,8 @@
 });
 
  $("#footer").fadeIn('slow')
-.css({top:752,position:'absolute'})
-.animate({top:685}, 800, function() {
+.css({bottom:0,position:'absolute'})
+.animate({bottom:0}, 800, function() {
     //callback
 });
 $(document).ready(function() {
